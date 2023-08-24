@@ -53,6 +53,47 @@ function createImgTag(imgClass, imgSrc) {
 }
 
 function createPost(data) {
+
+    /*
+    this is the post i want to create:
+
+            <section class="post">
+                <div class="post-head">
+                    <img src="./Vincent van Gogh.png" alt="" class="post-user-img">
+                    <p class="post-username">
+                        Vincent van Gogh
+                    </p>
+                    <p class="post-use-location">
+                        Zudert, Netherlands
+                    </p>
+                </div>
+
+                <div class="relative">
+                    <img src="./post-image.png" class="post-img">
+                    <i class="absolute-like fa-solid fa-heart bigger"></i>
+                </div>
+
+                <div class="post-icons flex">
+                    <i class="post-like fa-regular fa-heart"></i>
+                    <i class="post-comment fa-regular fa-comment"></i>
+                    <img src="./icons (1).png" class="share-icon">
+                </div>
+
+                <p class="post-likes">
+                    <span class="likes-num">21,492</span>
+                    <span>likes</span>
+                </p>
+
+                <div class="post-comments">
+                    <p class="comment-user">
+                        vincey1853
+                        <span class="comment">just took a few mushrooms lol</span>
+                    </p>
+                </div>               
+            </section>
+    */
+
+    
     const section = document.createElement("section")
     section.classList = "post"
 
