@@ -1,4 +1,4 @@
-const myApp = document.getElementById("app")
+const myMainTag = document.querySelector(".main")
 
 const posts = [
     {
@@ -149,5 +149,5 @@ function createPost(data) {
 
 
 for (const post of posts) {
-    myApp.append(createPost(post))
+    myMainTag.append(createPost(post))
 }
